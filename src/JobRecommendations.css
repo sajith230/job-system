@@ -1,0 +1,58 @@
+.recommendations-container {
+    padding: 40px;
+    background-color: #f9f9f9;
+  }
+  
+  h2 {
+    text-align: center;
+    color: #05386B;
+  }
+  
+  .job-section, .company-section, .advice-section {
+    margin-bottom: 30px;
+  }
+  
+  .job-cards, .company-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .job-card, .company-card {
+    background-color: #edf5e1;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 15px;
+    max-width: 250px;
+    text-align: center;
+    transition: transform 0.3s;
+  }
+  
+  .job-card:hover, .company-card:hover {
+    transform: scale(1.05);
+  }
+  
+  h3 {
+    color: #5CDB95;
+  }
+  
+  p {
+    color: #333;
+  }
+  
+  button {
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #5CDB95;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #379683;
+  }
+  

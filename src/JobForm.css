@@ -1,0 +1,128 @@
+/* Job Form Styles */
+body, html {
+  height: 100%; /* Full height */
+  margin: 0;
+  font-family: 'Arial', sans-serif; /* Font family */
+  overflow-y: auto; /* Enable vertical scrolling */
+
+}
+
+.slides-container {
+  display: flex; /* Use flexbox for layout */
+  flex-direction: column; /* Arrange slides in a column */
+  height: 100vh; /* Full viewport height */
+}
+
+.slide {
+  height: 100vh; /* Each slide takes full height */
+  display: flex; /* Use flexbox for centering */
+  justify-content: center; /* Center content horizontally */
+  align-items: center; /* Center content vertically */
+  color:blueviolet; /* Text color */
+  font-size: 2rem; /* Text size */
+  text-align: center; /* Center text */
+}
+
+.slide1 {
+  background-color: #ff6f61; /* Slide 1 color */
+}
+
+.slide2 {
+  background-color: #6a82fb; /* Slide 2 color */
+}
+
+.slide3 {
+  background-color: #fc5c7d; /* Slide 3 color */
+}
+
+.form-container {
+  max-width: 600px; /* Container width */
+  width: 100%; /* Full width on smaller screens */
+  background: rgba(255, 255, 255, 0.8); /* Slightly transparent white background */
+  border-radius: 15px; /* Rounded corners */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+  padding: 30px; /* Padding inside the form */
+  margin: 20px; /* Margin around the form */
+  display: flex; /* Use flexbox for form centering */
+  flex-direction: column; /* Stack children vertically */
+  align-items: center; /* Center children horizontally */
+  backdrop-filter: blur(10px); /* Add blur effect to the background */
+  display: contents;
+  background-image: url('./saji.jpg');
+}
+
+h2 {
+  margin-bottom: 20px; /* Spacing below heading */
+  font-size: 2.2rem; /* Heading size */
+ 
+}
+
+.form-group {
+  margin-bottom: 20px; /* Space between fields */
+  width: 100%; /* Full width of the form group */
+  background-image: url('./sajith.jpg');
+}
+
+label {
+  display: block; /* Block display for labels */
+  margin-bottom: 8px; /* Spacing below labels */
+  font-weight: bold; /* Bold labels */
+}
+
+input[type="text"],
+input[type="number"],
+input[type="url"],
+select,
+textarea {
+  width: 90%; /* Full width inputs */
+  padding: 10px; /* Inner spacing */
+  border: 2px solid #6a82fb; /* Border color */
+  border-radius: 8px; /* Rounded corners */
+  transition: border-color 0.3s, box-shadow 0.3s; /* Smooth transition */
+}
+
+input[type="text"]:focus,
+input[type="number"]:focus,
+input[type="url"]:focus,
+select:focus,
+textarea:focus {
+  border-color: #fc5c7d; /* Border color on focus */
+  box-shadow: 0 0 5px rgba(252, 92, 125, 0.5); /* Shadow on focus */
+  outline: none; /* Remove default outline */
+}
+
+.submit-button {
+  background-color: #6a82fb; /* Button color */
+  color: white; /* Button text color */
+  border: none; /* Remove border */
+  padding: 10px 20px; /* Padding for button */
+  border-radius: 8px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  font-size: 1rem; /* Font size */
+  transition: background-color 0.3s; /* Smooth background color transition */
+}
+
+.submit-button:hover {
+  background-color: #fc5c7d; /* Change color on hover */
+}
+
+.error-message {
+  color: red; /* Error message color */
+  font-size: 0.8rem; /* Error message size */
+}
+
+.question-link {
+  margin-top: 20px; /* Spacing above link */
+  color: #333; /* Link color */
+  font-size: 1.2rem; /* Link size */
+}
+
+#any {
+  color: white; /* Link color */
+  text-decoration: underline;
+   /* Underline link */
+   
+}
+body{
+ background-color:white;
+}

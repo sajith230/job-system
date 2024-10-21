@@ -1,0 +1,56 @@
+.biology-recommendations-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #f0f4f8; /* Light background similar to finance */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    font-size: 28px;
+    color: #0056b3; /* Dark blue for heading */
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 16px;
+    color: #333; /* Dark text for better readability */
+  }
+  
+  .job-posts {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .job-card {
+    background-color: #ffffff; /* White background for job cards */
+    border: 1px solid #007bff; /* Blue border for job cards */
+    border-radius: 8px;
+    padding: 15px;
+    transition: box-shadow 0.2s ease;
+  }
+  
+  .job-card:hover {
+    box-shadow: 0 4px 15px rgba(0, 123, 255, 0.3); /* Light blue shadow on hover */
+  }
+  
+  .file-input {
+    margin: 10px 0;
+  }
+  
+  .apply-button {
+    background-color: #007bff; /* Blue background for apply button */
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .apply-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  
